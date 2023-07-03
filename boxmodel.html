@@ -1,0 +1,86 @@
+<!-- Used components of box model : Margin and Padding -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Different Box Model</title>
+  </head>
+  <style>
+    body {
+      background-color: rgb(1, 1, 7);
+    }
+    * {
+      font-size: 30px;
+    }
+    ol {
+      margin-right: 1200px; /* adjusted margin of ordered list from right*/
+      padding-left: 50px !important; /* added padding and marked important*/
+    }
+    p,
+    ol {
+      /* width: 750px; */
+      background-color: rgb(68, 170, 204);
+      color: darkblue;
+      font-weight: 600;
+      padding: 25px; /*padding is added for all four sides*/
+      border: solid white 5px;
+      border-radius: 40px;
+    }
+    h2 {
+      background-color: rgb(68, 170, 204);
+      color: darkblue;
+      margin-left: 550px; /*adjusted margin from left side*/
+      margin-right: 720px; /*adjusted margin from right side*/
+      border: solid white 5px;
+      border-radius: 40px;
+      height: 50px;
+      width: 150px;
+      text-align: center;
+      padding-top: 15px; /*adjusted padding of heading from top*/
+    }
+  </style>
+  <body>
+    <h2>Box Model</h2>
+    <p>
+      The box model is an essential concept in HTML and CSS that describes how
+      elements on a webpage are rendered and displayed as rectangular boxes. The
+      box model consists of four main components:
+    </p>
+
+    <ol>
+      <li>Content</li>
+      <li>Padding</li>
+      <li>Border</li>
+      <li>Margin</li>
+    </ol>
+
+    <h2>Content</h2>
+    <p>
+      It refers to the actual content or data contained within the element, such
+      as text, images, or other HTML elements. The content area is determined by
+      the width and height properties.
+    </p>
+
+    <h2>Padding</h2>
+    <p>
+      Padding is the space between the content and the element's border. It
+      provides extra space inside the element and can be set using the padding
+      property. Padding can have individual values for each side (top, right,
+      bottom, left) or a single value that applies to all sides.
+    </p>
+
+    <h2>Borders</h2>
+    <p>
+      Border surrounds the content and padding of an element and is defined by
+      the border property. It can have a specific color, style, and width. The
+      border separates the element from its neighboring elements.
+    </p>
+
+    <h2>Margin</h2>
+    <p>
+      The margin is the space between an element's border and its surrounding
+      elements. It creates a gap or distance around the element and can be set
+      using the margin property. Similar to padding, margin can have individual
+      values or a single value for all sides.
+    </p>
+  </body>
+</html>
