@@ -1,0 +1,45 @@
+<!-- Experimenting Different display property like Inline and Block  -->
+<!-- And Use of box-sizing: border-box -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0; /*declared margin 0*/
+        padding: 0; /*declared padding 0*/
+        box-sizing: border-box; /*by using this if we initialized padding and margin then the size of box will not change ,it will default as declared*/
+      }
+      h1 {
+        border: 2px solid black; /* this is Block Property tag*/
+        height: 500px; /*we can Customize Height and width in in block Property*/
+        width: 500px;
+        margin: 25px; /* also we can customize margin and padding*/
+        padding: 30px;
+      }
+      span {
+        border: 2px solid darkblue;
+        height: 400px; /* here we applied height and width but it does not work*/
+        width: 400px;
+        margin: 50px; /* in inline property the margin is initialized only horizontally*/
+        padding: 25px;
+      }
+      div {
+        border: 2px solid red;
+        height: 200px;
+        width: 200px;
+        /* padding: 50px;
+        margin: 20px; */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is Block Property</h1>
+    <h1>I'm a web developer</h1>
+    <div>Welcome to my Github</div>
+    <span>This is inline Property</span>
+    <span>This will remain at same line.</span>
+  </body>
+</html>
