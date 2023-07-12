@@ -24,6 +24,13 @@
         width: 50vw; /*takking 50% of viewport width*/
         border: 5px solid darkblue;
       }
+      .relative {
+        font-size: 3px;
+      }
+      .demo {
+        font-size: 10em; /*here the font size will be "30"
+         as the parent class size is "3" and child class "10" so the final size will 3*10 i.e 30*/
+      }
     </style>
   </head>
   <body>
@@ -31,6 +38,10 @@
       <p>Percent (%) units</p>
     </div>
 
-    <div class="view">Viewport</div>
+    <div class="view">Viewport Units</div>
   </body>
+
+  <div class="relative">
+    <div class="demo">Relative</div>
+  </div>
 </html>
