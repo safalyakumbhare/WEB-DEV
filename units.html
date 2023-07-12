@@ -3,23 +3,33 @@
   <head>
     <title>Document</title>
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
       p {
         background-color: aqua;
         font-weight: 900;
-        width: 35%; /*takes 25% of paragraph width in black*/
+        width: 55%; /*takes 25% of paragraph width in black*/
         font-size: 50px;
       }
       .per {
         background-color: black;
-        width: 50%; /*takes 50% of paragraph width in black*/
+        width: 80%; /*takes 50% of paragraph width in black*/
+      }
+      .view {
+        background-color: yellow;
+        font-size: 50px;
+        height: 100vh; /*Taking 100% of viewport height*/
+        width: 50vw; /*takking 50% of viewport width*/
       }
     </style>
   </head>
   <body>
     <div class="per">
-      <p>Percentage</p>
+      <p>Percent (%) units</p>
     </div>
 
-    <div class="demo">Pixels</div>
+    <div class="view">Viewport</div>
   </body>
 </html>
