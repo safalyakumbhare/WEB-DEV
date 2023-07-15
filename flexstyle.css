@@ -23,6 +23,7 @@
   width: 200px;
   margin: 5px;
   order: 500; /* order set this box  at last*/
+  flex-shrink: 4;
 }
 .b2 {
   border: 5px solid black;
