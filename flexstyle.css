@@ -46,5 +46,5 @@
   height: 200px;
   width: 200px;
   margin: 5px;
-  order: -1; /*order set this box to first*/
+  /* order: -1; order set this box to first */
 }
