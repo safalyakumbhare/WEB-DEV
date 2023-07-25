@@ -13,8 +13,8 @@
   height: 100vh;
   flex-direction: row-reverse;
   justify-content: center;
-  flex-wrap: wrap-reverse;
-  align-items: center;
+  /* flex-wrap: wrap-reverse; */
+  /* align-items: center; */
 }
 .b1 {
   border: 5px solid black;

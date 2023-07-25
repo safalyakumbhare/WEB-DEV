@@ -9,16 +9,22 @@ fieldset {
   border: 3px solid aqua;
   border-radius: 10px;
   background-color: black;
-  width: 350px;
-  height: 250px;
+  /* width: 350px;
+  height: 250px; */
   padding: 25px;
   /* box-sizing: border-box; */
 }
 div {
+  border: 5px solid aqua;
+  box-sizing: border-box;
+  height: 250px;
+  width: 300px;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
   justify-content: center;
-  /* align-items: center; */
-  margin: 100px;
+  align-items: center;
+  /* margin: 100px; */
 }
 
 button {
