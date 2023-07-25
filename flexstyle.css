@@ -13,7 +13,7 @@
   height: 100vh;
   flex-direction: row-reverse;
   justify-content: center;
-  /* flex-wrap: wrap-reverse; */
+  flex-wrap: wrap-reverse;
   align-items: center;
 }
 .b1 {
