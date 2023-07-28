@@ -3,6 +3,13 @@
   padding: 0;
   background-color: rgb(8, 5, 56);
   color: aquamarine;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
 }
 fieldset {
@@ -19,11 +26,7 @@ div {
   box-sizing: border-box;
   height: 250px;
   width: 300px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap-reverse;
-  justify-content: center;
-  align-items: center;
+
   /* margin: 100px; */
 }
 
