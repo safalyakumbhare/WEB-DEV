@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Media Query</title>
-  </head>
-  <style>
-    .box {
-      border: 5px solid black;
-      height: 400px;
-      width: 400px;
-      background-color: aquamarine;
-    }
-    @media (min-width: 500px) {
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
       .box {
-        background-color: red;
+        height: 400px;
+        width: 400px;
+        background-color: aqua;
+        border: 3px solid black;
       }
-    }
-  </style>
+      @media (min-width: 500px) {
+        .box {
+          background-color: green;
+        }
+      }
+    </style>
+  </head>
   <body>
-    <div class="box">Hello There</div>
+    <div class="box">Hello Jee</div>
   </body>
 </html>
