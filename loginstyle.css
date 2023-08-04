@@ -146,6 +146,7 @@ body {
   transform: scale(1.2);
 }
 .logreg-box .form-box {
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,6 +159,9 @@ body {
   color: #e4e4e4;
 }
 
+.logreg-box .form-box.register {
+  transform: translateX(430px);
+}
 .form-box h2 {
   font-size: 32px;
   text-align: center;
