@@ -4,10 +4,10 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serifx;
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 header {
-  background-color: black;
   color: rgb(131, 59, 33);
   text-align: center;
   padding: 1rem;
@@ -15,8 +15,8 @@ header {
 
 main {
   display: flex;
-  background-color: antiquewhite;
-  color: rgb(218, 51, 73);
+  background-color: black;
+  color: #f41f4e;
   justify-content: space-between;
   padding: 2rem;
 }
@@ -25,7 +25,7 @@ main {
 .player {
   flex: 1;
   padding: 1rem;
-  border: 1px solid #ddd;
+  border: 1px solid #f41f4e;
   border-radius: 5px;
   margin: 0 1rem;
 }
