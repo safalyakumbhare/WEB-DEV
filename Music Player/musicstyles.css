@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  color: rgb(131, 59, 33);
+  color: #f41f4e;
   text-align: center;
   padding: 1rem;
 }
@@ -25,7 +25,7 @@ main {
 .player {
   flex: 1;
   padding: 1rem;
-  border: 1px solid #f41f4e;
+  border: 1px solid;
   border-radius: 5px;
   margin: 0 1rem;
 }
@@ -46,5 +46,6 @@ li {
 }
 
 li:hover {
-  background-color: #f5f5f5;
+  transition: 0.5s ease;
+  background-color: #ffc2c7;
 }
