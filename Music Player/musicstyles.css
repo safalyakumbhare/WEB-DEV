@@ -25,7 +25,7 @@ main {
 .player {
   flex: 1;
   padding: 1rem;
-  border: 1px solid;
+  border: 5px solid;
   border-radius: 5px;
   margin: 0 1rem;
 }
