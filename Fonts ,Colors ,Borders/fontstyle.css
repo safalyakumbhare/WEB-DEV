@@ -1,5 +1,5 @@
 .italic {
-  background-color: black; /*black colour  using Named color*/
+  background-color: black; /*Used black colour  using Named color*/
   color: rgb(150, 63, 130); /*Pink colour using RGB*/
   font-size: 25px; /* used to resize text  */
   font-weight: 600; /*Used to change the boldness of font*/
