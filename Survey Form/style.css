@@ -23,3 +23,9 @@ input {
 label {
   padding: 5px;
 }
+select {
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: rgb(207, 208, 203);
+}
