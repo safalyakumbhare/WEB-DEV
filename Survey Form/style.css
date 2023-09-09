@@ -12,13 +12,22 @@ h1 {
   background-color: aliceblue;
   margin: 40px;
   margin-top: 10px;
-}
-.content {
   text-align: center;
-  padding: 15px;
   font-size: 20px;
 }
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+}
 input {
+  width: 230px;
+  height: 20px;
+  margin: 5px;
 }
 label {
   padding: 5px;
