@@ -1,6 +1,7 @@
-let ramrambtn = document.querySelector("button");
-ramrambtn.addEventListener("click", showmsg);
+let Hellobtn = document.querySelector("button");
+Hellobtn.addEventListener("click", inputmsg);
 
-function showmsg() {
-  alert("RAM RAM world");
+function inputmsg() {
+  let name = prompt("Enter Your Name");
+  Hellobtn.textContent = "Hello " + name;
 }
