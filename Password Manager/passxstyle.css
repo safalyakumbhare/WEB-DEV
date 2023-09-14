@@ -1,7 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto+Slab&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 nav {
   background-color: red;
+}
+ul {
+  display: flex;
+}
+ul li {
+  list-style: none;
 }
