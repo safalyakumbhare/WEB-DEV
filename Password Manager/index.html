@@ -18,7 +18,36 @@
       <h1>SecurePass Manager!</h1>
       <p>Your digital vault for ultimate password protection.</p>
       <h2>Your Passwords</h2>
+      <table>
+        <tr>
+          <td>Website</td>
+          <td>Username</td>
+          <td>Password</td>
+          <td>Delete</td>
+        </tr>
+        <tr>
+          <td>Google</td>
+          <td>visualstudio@code.com</td>
+        </tr>
+
+
+      </table>
       <h2>Add Your Password</h2>
+      <form action="/submit" method="post">
+        <!-- Text input for username -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+    
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+    
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+      </form>
     </div>
   </body>
 </html>
