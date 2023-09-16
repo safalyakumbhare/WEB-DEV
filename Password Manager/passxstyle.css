@@ -20,5 +20,24 @@ table {
 }
 .container {
   max-width: 80vw;
-  margin: auto;
+  margin: 23px auto;
+}
+h1,
+h2,
+h3 {
+  margin: 23px;
+}
+button {
+  display: flex;
+
+  align-items: center;
+  margin: 27px 0;
+  padding: 8px 17px;
+  font-weight: 900;
+  height: 30px;
+  color: aliceblue;
+  background-color: black;
+  border: 2px solid blue;
+  border-radius: 5px;
+  cursor: pointer;
 }
