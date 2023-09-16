@@ -18,3 +18,7 @@ ul li {
 table {
   border: 5px solid black;
 }
+.container {
+  max-width: 80vw;
+  margin: auto;
+}
