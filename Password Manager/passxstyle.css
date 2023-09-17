@@ -6,7 +6,7 @@
   font-family: "Roboto Slab", serif;
 }
 nav {
-  background-color: red;
+  background-color: aqua;
   display: flex;
   justify-content: space-between;
   padding: 12px 13px;
