@@ -28,7 +28,8 @@ ul li:hover {
   transition: 0.5s ease;
   color: blue;
 }
-h1 {
+h1,
+p {
   text-align: center;
 }
 table {
