@@ -26,7 +26,7 @@ ul li {
 }
 ul li:hover {
   transition: 0.5s ease;
-  color: aliceblue;
+  color: blue;
 }
 table {
   border: 5px solid black;
