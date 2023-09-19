@@ -6,7 +6,8 @@
   font-family: "Roboto Slab", serif;
 }
 nav {
-  background-color: aqua;
+  background-color: #101820ff;
+  color: #f2aa4cff;
   display: flex;
   justify-content: space-between;
   padding: 12px 13px;
@@ -26,7 +27,7 @@ ul li {
 }
 ul li:hover {
   transition: 0.5s ease;
-  color: blue;
+  font-size: 20px;
 }
 h1,
 p {
