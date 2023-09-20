@@ -5,7 +5,10 @@
   font-family: "Dancing Script", cursive;
   font-family: "Roboto Slab", serif;
 }
+
 nav {
+  border: 5px solid #f2f2f2;
+  box-sizing: border-box;
   background-color: #101820ff;
   color: #f2aa4cff;
   display: flex;
