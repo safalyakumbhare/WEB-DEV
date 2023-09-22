@@ -49,7 +49,7 @@ h2,
 h3 {
   margin: 23px;
 }
-button {
+.btn {
   display: flex;
   align-items: center;
   margin: 27px 0;
