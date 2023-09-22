@@ -9,8 +9,11 @@ document.querySelector("button").addEventListener("click", (e) => {
     let json = [];
     json.push({ username: username.value, password: password.value });
     alert("password saved");
+    localStorage.setItem("passwords", JSON.stringify(json));
   } else {
-    let json = [];
-    localStorage.setItem(password);
+    let json = JSON.parse(localStorage.getItem("password"));
+    json.push({ username: username.value, password: password.value });
+    alert("password saved");
+    localStorage.setItem("passwords", JSON.stringify(json));
   }
 });
