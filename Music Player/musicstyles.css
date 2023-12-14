@@ -1,24 +1,27 @@
 /* styles.css */
+
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serifx;
   margin: 0;
   padding: 0;
-  background-color: black;
   box-sizing: border-box;
+  background-image: url(img.jpg) !important;
+  background-size: 100%;
 }
 
 header {
-  background-color: crimson;
-  color: #ffc2c7;
+  background :transparent;
+  color: rgba(122, 119, 119, 0.939);
   text-align: center;
   padding: 1rem;
 }
 
 main {
   display: flex;
-  background-color: black;
-  color: #f41f4e;
+
+  /* background-color: black; */
+  color: rgba(122, 119, 119, 0.939);
   justify-content: space-between;
   padding: 2rem;
 }
@@ -49,5 +52,5 @@ li {
 
 li:hover {
   transition: 0.5s ease;
-  background-color: #ffc2c7;
+  background-color: rgba(122, 119, 119, 0.939);
 }
