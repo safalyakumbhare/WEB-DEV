@@ -6,9 +6,21 @@
     <title>Spectficity and Cascade in CSS</title>
 </head>
 <style>
-    
+    h1{
+        color: pink;
+    }
+    .yellow{
+        color: yellow;
+    }
+    .green{
+        /* Specifying the class selector again will override the previous properties */
+        color: green;
+    }
+    .red{
+        color:red;
+    }
 </style>
 <body>
-    <h1>I Am a Spectficity Selector</h1>
+    <h1 class="yellow green red">I Am a Spectficity Selector</h1>
 </body>
 </html>
