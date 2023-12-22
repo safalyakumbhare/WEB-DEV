@@ -1,24 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@400;500&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Kalnia', serif;
-    color:aliceblue;
-    font-weight: 500;
+@import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Kalnia", serif;
+  color: whitesmoke;
+  font-weight: 500;
 }
-nav{
-    background-color: rgb(68, 10, 10);
-    /* display: flex;
+nav {
+  background-color: rgb(68, 10, 10);
+  /* display: flex;
     flex-direction: row;
     justify-content: right; */
-    height: 20vh;
+  /* height: vh; */
+  box-sizing: border-box;
 }
-h1{
-    text-align: center;
-    padding: 20px;
-    font-size: 25px;
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
 }
-a{
-    padding: 20px;
-    text-align: end;
+a {
+  padding: 20;
+}
+.content {
+  /* padding: 20px; */
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.Signin {
+    width: 80px;
+    margin: 10;
+    border: none;
+    height: 30;
+    color: rgb(68, 10, 10);
+}
+.Signup {
+  width: 80px;
+  margin: 10;
+  border: none;
+  height: 30;
+  color: rgb(68, 10, 10);
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  
 }
