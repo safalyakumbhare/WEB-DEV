@@ -26,22 +26,29 @@ a {
   justify-content: flex-end;
 }
 .Signin {
-    width: 80px;
-    margin: 10;
-    border: none;
-    height: 30;
-    color: rgb(68, 10, 10);
-}
-.Signup {
   width: 80px;
-  margin: 10;
+margin: 10; 
   border: none;
   height: 30;
   color: rgb(68, 10, 10);
+  border: 3px solid rgb(188, 137, 60);
+  border-radius: 15px;
+}
+.Signup {
+  width: 80px;
+    margin: 10;
+  border: none;
+  height: 30;
+  color: rgb(68, 10, 10);
+  border: 3px solid rgb(188, 137, 60);
+  border-radius: 15px;
 }
 a {
   text-decoration: none;
 }
 a:hover {
+    transform: translateY(Y);
+    transition: 0.5s ease;
   text-decoration: underline;
+  text-decoration-color: rgb(188, 137, 60);
 }
