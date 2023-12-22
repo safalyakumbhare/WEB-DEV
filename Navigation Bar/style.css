@@ -8,10 +8,17 @@
 }
 nav{
     background-color: rgb(68, 10, 10);
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: right; */
+    height: 20vh;
 }
-.menu{
-    
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+a{
+    padding: 20px;
+    text-align: end;
 }
