@@ -6,6 +6,9 @@
   color: whitesmoke;
   font-weight: 500;
 }
+body{
+  background-color: rgb(55, 9, 9);
+}
 nav {
   background-color: rgb(55, 9, 9);
   box-sizing: border-box;
