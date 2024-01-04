@@ -54,22 +54,11 @@ a:hover {
     transition: 0.5s ease;
   text-decoration: underline;
   text-decoration-color: rgb(188, 137, 60);
-<<<<<<< HEAD
-  font-size:20px;
-  
-=======
   font-size: 25px;
->>>>>>> 07c4b77904f53f1f7c431c3c2be446ff8360e93c
 }
 .main{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: left;
-<<<<<<< HEAD
-  margin:auto;
-  padding: 20px;
 }
-=======
-}
->>>>>>> 07c4b77904f53f1f7c431c3c2be446ff8360e93c
