@@ -21,7 +21,7 @@ transition: .5s ease;
 
 }
 .text:hover{
-    text-shadow: 4px 5px 5px palegreen;
+    text-shadow: 5px -1px 5px palegreen;
     transition: .5s ease;
 
 }
