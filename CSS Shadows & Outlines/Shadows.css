@@ -14,3 +14,7 @@ body{
     box-shadow: 12px -7px 5px blue;
 transition: .5s ease;
 }
+.text{
+    margin-top:55px;
+    text-align: center;
+}
