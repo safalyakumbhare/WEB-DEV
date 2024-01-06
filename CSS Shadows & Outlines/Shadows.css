@@ -18,7 +18,7 @@ transition: .5s ease;
     margin-top:55px;
     text-align: center;
     /* color:rgb(120, 13, 120); */
-
+    outline: 5px dotted green;
 }
 .text:hover{
     text-shadow: 5px -1px 5px palegreen;
