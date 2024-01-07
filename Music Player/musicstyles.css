@@ -55,6 +55,7 @@ li:hover {
   
   text-decoration: underline;
   text-decoration-color: gray;
-  
+  font-size: 18px;
+  transition: .5s ease;
   /* background-color: rgba(161, 156, 156, 0.939); */
 }
