@@ -1,133 +1,21 @@
-/* Add your CSS file here */
-
-/* Use a custom font for the whole document */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
-/* Set the margin and padding of the body to zero */
-body {
+*{
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
 }
-
-/* Style the header element */
-header {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 20px;
+body{
+  color: #ededed;
 }
-
-/* Style the h1 element inside the header */
-header h1 {
-  font-size: 36px;
-}
-
-/* Style the section elements */
-section {
-  margin: 20px;
-}
-
-/* Style the h2 elements inside the sections */
-section h2 {
-  font-size: 24px;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-/* Style the p elements inside the sections */
-section p {
-  font-size: 18px;
-  color: #666;
-  line-height: 1.5;
-}
-
-/* Style the ul element inside the skills section */
-section ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-/* Style the li elements inside the ul */
-section li {
-  font-size: 18px;
-  color: #666;
-  display: inline-block;
-  margin-right: 10px;
-  padding: 5px 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-/* Style the projects div inside the projects section */
-section #projects {
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding:20px 10%;
+  background: transparent;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-}
-
-/* Style the project divs inside the projects div */
-section #projects div {
-  width: 300px;
-  height: 200px;
-  margin: 10px;
-  background-size: cover;
-  background-position: center;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-/* Add some sample images for the project divs */
-section #projects #project1 {
-  background-image: url('https://source.unsplash.com/random/300x200?web');
-}
-
-section #projects #project2 {
-  background-image: url('https://source.unsplash.com/random/300x200?app');
-}
-
-section #projects #project3 {
-  background-image: url('https://source.unsplash.com/random/300x200?game');
-}
-
-/* Style the form element inside the contact me section */
-section form {
-  width: 400px;
-  margin: 0 auto;
-}
-
-/* Style the label elements inside the form */
-section form label {
-  font-size: 18px;
-  color: #333;
-  display: block;
-  margin-top: 10px;
-}
-
-/* Style the input elements inside the form */
-section form input {
-  font-size: 18px;
-  color: #666;
-  display: block;
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-/* Style the submit button inside the form */
-section form input[type="submit"] {
-  background-color: #333;
-  color: white;
-  cursor: pointer;
-}
-
-/* Style the footer element */
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
+  z-index: 100;
 }
