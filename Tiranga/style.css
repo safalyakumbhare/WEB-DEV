@@ -28,17 +28,23 @@
   justify-content: center;
   align-items: center;
 }
+.text1,
+.text2,
+.text3 {
+  text-shadow: none;
+  transition: 0.5s ease-out;
+}
 .text1:hover {
   text-shadow: 8px -2px 5px rgb(255, 173, 20);
-  transition: 0.5s ease;
+  color: aliceblue;
 }
 .text2:hover {
   text-shadow: 8px -2px 5px darkblue;
-  transition: 0.5s ease;
+  /* transition: 0.5s ease;*/
   color: aliceblue;
 }
 .text3:hover {
   text-shadow: 8px -2px 5px whitesmoke;
-  transition: 0.5s ease;
-
+  /* transition: 0.5s ease; */
+  color: aliceblue;
 }
