@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@400;500&family=Playfair+Display:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Kalnia", serif;
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+.Safron {
+  background-color: orangered;
+  height: 33.33vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.White {
+  background-color: white;
+  height: 33.33vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Green {
+  background-color: green;
+  height: 33.33vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text1:hover {
+  text-shadow: 8px -2px 5px rgb(255, 173, 20);
+  transition: 0.5s ease;
+}
+.text2:hover {
+  text-shadow: 8px -2px 5px darkblue;
+  transition: 0.5s ease;
+  color: aliceblue;
+}
+.text3:hover {
+  text-shadow: 8px -2px 5px whitesmoke;
+  transition: 0.5s ease;
+
+}
