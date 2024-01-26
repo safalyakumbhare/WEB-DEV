@@ -4,7 +4,7 @@
   margin: 0;
   font-family: "Kalnia", serif;
   font-family: "Playfair Display", serif;
-  font-size: 50px;
+  font-size: 80px;
   font-weight: 600;
 }
 .Safron {
@@ -32,19 +32,17 @@
 .text2,
 .text3 {
   text-shadow: none;
-  transition: 0.5s ease-out;
+  transition: 1s ease-out;
 }
 .text1:hover {
-  text-shadow: 8px -2px 5px rgb(255, 173, 20);
-  color: aliceblue;
+  text-shadow: 12px -2px 5px rgb(255, 173, 20);
+  color: rgb(255, 255, 0);
 }
 .text2:hover {
-  text-shadow: 8px -2px 5px darkblue;
-  /* transition: 0.5s ease;*/
+  text-shadow: 12px -2px 5px darkblue;
   color: aliceblue;
 }
 .text3:hover {
-  text-shadow: 8px -2px 5px whitesmoke;
-  /* transition: 0.5s ease; */
-  color: aliceblue;
+  text-shadow: 12px -2px 5px whitesmoke;
+  color: greenyellow;
 }
